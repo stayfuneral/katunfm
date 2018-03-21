@@ -1,0 +1,192 @@
+/* 
+    Theme Name: Катунь FM
+    Created on : 01.03.2018, 13:39:35
+    Author     : Ramapriya
+*/
+
+/* Импорт гугл-шрифтов */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Roboto');
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Comfortaa, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+    
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.absolute-center {
+    
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*color: #fff;*/
+}
+
+.navbar a {
+    color: #222;
+}
+
+.navbar-nav .ml-auto .menu-item li a{
+    padding: 5px;
+}
+
+.navbar .title-head {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.slide-action {
+    color: #fff;
+}
+
+.slide-action:hover {
+    color: #eee;
+}
+
+.navbar-default .navbar-nav .nav-link {
+    color: #000;
+}
+
+/*
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+}
+*/
+.navbar a:hover, a:focus {
+
+    text-decoration: none;
+   
+}
+
+/* .navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+*/
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    margin-top: 0px;
+}
+
+input.top-search {
+    font-style:italic;
+}
+
+.home-slider {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+bt-center {
+    margin: 0 auto;
+}
+
+.top-player {
+    width: 80%;
+    max-width: 100px;
+    background: #192E41;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.slide-action {
+    color: #fff;
+}
+
+.slide-action:hover {
+    color: #eee;
+}
+
+/* Фото ведущих */
+
+
+.djs {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+}
+
+.djs:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none; /* IE 6-9 */
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #e6e6e6;
+}
+
+footer ul {
+    padding: 0!important;
+}
+
+footer ul li {
+    list-style: none !important;
+
+}
+
+footer .nav-link {
+    
+    padding: 0 !important;
+}
+
+/*Button links*/
+
+.btn-outline-info a
+}
+
