@@ -44,7 +44,7 @@
 
 Данный плагин отвечает за трансляцию радио на сайт. По желанию можно поменять кнопки play и pause. Для этого нужно выполнить любое из этих двух действий:
 * дать новым изображениям кнопок те же имена
-* залезть в файл compact-wp-audio-player/css/player.css и отредактировать классы .sc_player_container1 .myButton_play (кнопка PLAY) и .sc_player_container1 .myButton_stop (кнопка PAUSE).
+* залезть в файл `compact-wp-audio-player/css/player.css` и отредактировать классы .sc_player_container1 .myButton_play (кнопка PLAY) и .sc_player_container1 .myButton_stop (кнопка PAUSE).
 
 Также при необходимости можно задать иные размеры изображения (в этих же классах)
 
