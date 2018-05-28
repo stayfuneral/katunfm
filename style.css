@@ -163,6 +163,13 @@ bt-center {
     filter: none; /* IE 6-9 */
 }
 
+.mistake {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 footer a {
     color: #fff;
 }
@@ -185,8 +192,21 @@ footer .nav-link {
     padding: 0 !important;
 }
 
-/*Button links*/
 
-.btn-outline-info a
+.bc-table {
+    display: none;
 }
 
+.bc-map {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .bc-map {
+        display: none;
+    }
+    
+    .bc-table {
+        display: block;
+    }
+}

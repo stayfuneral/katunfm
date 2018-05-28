@@ -8,10 +8,14 @@ get_header();
 
 ?>
 
-
-
-<?php query_posts('cat=2');
+<div class="col-md-9">
+        <?php query_posts('cat=2');
 while( have_posts() ) : the_post(); ?>
 
-<?php endwhile;
-get_footer();
+<?php endwhile; ?>    
+</div>
+<div class="col-md-3">
+            <?php get_sidebar();?>
+</div>
+
+<?php get_footer();

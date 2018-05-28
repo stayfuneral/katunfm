@@ -26,6 +26,23 @@ add_action('after_setup_theme', function(){
 // Добавление возможности загружать свой логотип
 add_theme_support('custom-logo');
 
+//Регистрация виджетов в сайдбаре
+add_theme_support('widgets');
+
+add_action( 'widgets_init', 'register_my_widgets' );
+function register_my_widgets(){
+	register_sidebar( array(
+		'name'          => sprintf(__('Сайдбар'), $i ),
+		'id'            => "sidebar-$i",
+		'description'   => '',
+		'class'         => '',
+		'before_widget' => '<div class="mt-2 mb-2 mx-auto">',
+		'after_widget'  => "</div>\n",
+		'before_title'  => '<h2>',
+		'after_title'   => "</h2>\n",
+	) );
+}
+
 // Добавление миниатюры записей и страниц
 add_theme_support( 'post-thumbnails', ['post', 'page'] );
 $action_size = 'full';
