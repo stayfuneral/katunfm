@@ -15,7 +15,7 @@ get_header();
             <?php get_post(); 
                 while( have_posts() ) : the_post();?>
             <h1 class="pt-5"><?php the_title(); ?></h1>
-
+			<p>Запись эфира <?php the_date();?></p>
             <?php the_post_thumbnail($size, $attr);?>
             <div class="mt-3">
                 <?php the_content();?>

@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 
 /*
- * Template Name: Архив программы "Год волонтёра"
- * Данная страница отвечает за вывод постов из рубрики "Год волонтёра" (раздел "Программы")
+ * Template Name: Архив программы "Неделя"
+ * Данная страница отвечает за вывод постов из рубрики "Неделя" (раздел "Программы")
  */
 
 get_header();
@@ -15,7 +15,7 @@ get_header();
 <div class="container">
     <div class="row mt-3">
         <div class="col-md-9">
-		<?php query_posts('cat=8');
+		<?php query_posts('cat=9');
             while( have_posts() ) : the_post(); ?>
 			<h3 class="mt-3"><a href="<?php echo get_permalink();?>"><?php the_title(); ?></a></h3>
 			<p>Запись эфира <?php the_date();?></p>

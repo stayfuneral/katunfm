@@ -19,36 +19,36 @@ get_header();
                 <h1 class="m-5 text-center"><strong>Наши программы</strong></h1>
                 
                 <div class="row">
-                    <?php query_posts('posts_per_page=3', 'cat=3,5,6,7,12');
+                    <?php query_posts('posts_per_page=3', 'cat=5,6,7,8,9,10');
                     while( have_posts() ) : the_post(); ?>
                     <div class="col-md-4">
                         <div class="card border-0 mb-5">
-                            <div class="mt-2 mb-2"><?php the_date();?></div>
-                            <?php the_post_thumbnail($prog_size, $prog_class);?>
+
+                            <a href="<?php echo get_permalink();?>"><?php the_post_thumbnail($prog_size, $prog_class);?></a>
                             <h3 class="mt-2 card-title"><a href="<?php echo get_permalink();?>"><?php the_title(); ?></a></h3>
-                            <?php the_content('<button class="btn btn-outline-info text-uppercase mt-3 mb-3">Слушать запись</button>');?>
+							<p>Запись эфира <?php the_date();?></p>
+                            <?php the_content();?>
                             
                             <h6 class="mt-2"><?php edit_post_link();?></h6>
                         </div>
                     </div>
                     <?php endwhile;?>
                    
-                        <button class="btn btn-lg btn-dark text-uppercase mb-5 mx-auto"><a class="text-white" href="<?php echo get_permalink(38); ?>">Все программы</a></button>
-                        
-                            
-                            
+                        <button class="btn btn-lg btn-dark text-uppercase mb-5 mx-auto"><a class="text-white" href="<?php echo get_permalink(16); ?>">Все программы</a></button>
+                   
                 </div>
-                <div class="row">
+				<!--
+				<div class="row m-5">
                     <?php
-                        $postID = 17;
-                        $post = get_post($postID);
+                        //$postID = 14;
+                        //$post = get_post($postID);
                         
                         ?>
-                        <h1 class="m-5 text-center mx-auto"><strong><?php echo $post->post_title;?></strong></h1>
-                        <?php echo $post->post_content;?>
+                        <h1 class="m-5 text-center mx-auto"><strong><?php //echo $post->post_title;?></strong></h1>
+                        <?php //echo $post->post_content;?>
                     
                 </div>
-                
+                -->
             </div>
             <div class="col-md-3">
                 

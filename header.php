@@ -15,10 +15,11 @@
             <a class="title-head" href="<?php echo get_home_url();?>" class="navbar-brand"><span class="ml-3">Катунь 88,7FM</span></a>
                 
             <!-- Плагин Compact WP Audio Player - отвечает за трансляцию радио на сайте -->
-            <div class="ml-3 mr-3">
-                <?php echo do_shortcode( '[sc_embed_player volume="70" fileurl="http://air.radiorecord.ru:8102/tm_320??ab=1453400925&radioson.mp3"]' ); ?>
+            <!--
+			<div class="ml-3 mr-3">
+                <?php // echo do_shortcode( '[sc_embed_player volume="70" fileurl="http://air.radiorecord.ru:8102/tm_320??ab=1453400925&radioson.mp3"]' ); ?>
             </div>
-           
+           -->
 
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <!--

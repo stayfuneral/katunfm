@@ -19,7 +19,7 @@ add_action('wp_enqueue_scripts', 'katunfm_scripts');
 add_action('after_setup_theme', function(){
 	register_nav_menus([
                 'primary' => 'Главное шапке',
-		'footer_menu' => 'Меню в подвале'
+				'footer_menu' => 'Меню в подвале'
                 ] );
 });
 
